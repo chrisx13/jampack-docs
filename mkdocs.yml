@@ -41,4 +41,5 @@ nav:
       - BRD / Analyse métier: 10-analyse-metier/brd.md
   - Exigences:
       - SRS: 20-exigences/srs.md
+      - Modèle d'habilitation: 20-exigences/habilitations.md
   - Glossaire: glossaire.md

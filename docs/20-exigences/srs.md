@@ -43,7 +43,11 @@ JAMPACK est une application web (et desktop/mobile) multi-tenant. La hiérarchie
 - **SRS-F-ADM-2** — La création d'un utilisateur se fait par **adresse e-mail** (unique) ; un utilisateur déjà existant ne peut être recréé.
 - **SRS-F-ADM-3** — Un utilisateur **ne peut jamais être supprimé** ; il peut uniquement être basculé **actif / inactif**. Son historique (pièces créées, activités) est conservé.
 - **SRS-F-ADM-4** — Les **rôles** sont définis au niveau du compte et attribués **par société** ; un utilisateur peut cumuler plusieurs rôles dans une société et avoir des rôles différents d'une société à l'autre.
-- **SRS-F-ADM-5** — Les permissions s'expriment en couples **action × sujet** (ex. `create × Invoice`) et sont évaluées côté serveur pour chaque opération sensible.
+- **SRS-F-ADM-5** — Les droits sont **hiérarchisés Rôle ▸ Module ▸ Domaine ▸ Action** (le rôle au sommet), avec pour actions standard **voir / créer / modifier**. Un droit est identifié par `module.domaine.action` (ex. `ventes.factures.creer`). Voir le *Modèle d'habilitation* pour la taxonomie et la matrice complète.
+- **SRS-F-ADM-6** — **Chaque action sensible est soumise à un droit**, contrôlé **côté serveur** (pas seulement masquée dans l'interface). L'interface masque/désactive les actions non autorisées.
+- **SRS-F-ADM-7** — Un rôle est configurable : on lui accorde des droits en cochant, par module puis par domaine, les actions voulues (voir/créer/modifier).
+- **SRS-F-ADM-8** — Le système fournit des **rôles prédéfinis** (Administrateur, Stock, Facturation, Comptable, Commercial, Lecture seule…), utilisables tels quels ou **duplicables** pour créer des rôles personnalisés.
+- **SRS-F-ADM-9** — Le système garantit qu'**au moins un utilisateur actif détient le rôle Administrateur** : toute opération qui retirerait, désactiverait ou rétrograderait le **dernier** administrateur est **refusée** avec un message explicite.
 
 ### 3.4 Paramétrage
 

@@ -66,6 +66,9 @@ flowchart LR
 | RG-12 | Un utilisateur est **identifié de manière unique par son adresse e-mail**. |
 | RG-13 | Un droit général **« Utilisateurs »** autorise à **voir / créer / modifier** les utilisateurs. |
 | RG-14 | Un utilisateur créé n'est **jamais supprimé** : il est seulement basculé **actif / inactif**. Un utilisateur inactif ne peut plus se connecter mais son historique est conservé. |
+| RG-15 | **Chaque action est soumise à un droit.** La hiérarchie des droits est **Rôle ▸ Module ▸ Domaine ▸ Action**, le **rôle** en étant le sommet. Les actions standard sont **voir / créer / modifier**. Un droit s'écrit `module.domaine.action` (ex. `ventes.factures.creer`) ; un rôle est l'ensemble des droits qu'il accorde. Les droits effectifs d'un utilisateur dans une société sont l'**union** de ses rôles pour cette société. |
+| RG-16 | JAMPACK fournit des **rôles prédéfinis** prêts à l'emploi (Administrateur, Stock, Facturation, Comptable, Commercial, Lecture seule…). Ils sont utilisables tels quels, ou **duplicables et personnalisables** par compte. |
+| RG-17 | **Au moins un utilisateur actif doit toujours détenir le rôle Administrateur** sur le compte. Le système empêche de retirer, désactiver ou rétrograder le **dernier** administrateur. |
 
 ## 6. Besoins par domaine
 
