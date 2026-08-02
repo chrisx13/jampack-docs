@@ -63,8 +63,8 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | Plan comptable (PCG), journaux, **écritures auto** depuis la gestion | P0 | À ajouter |
 | **TVA (CA3)**, **FEC** | P0 | À ajouter (réglementaire) |
 | Lettrage, **rapprochement bancaire** | P1 | À ajouter |
-| **Import relevés bancaires** (OFX/CSV) / agrégation | P1 | À ajouter |
-| Export vers l'expert-comptable | P1 | À ajouter |
+| **Connexion bancaire multi-banque** : agrégation **DSP2** (toute banque FR/UE) + import relevés **CAMT.053/OFX/CFONB/CSV** pour le rapprochement | P1 | À ajouter |
+| **Import/export comptable conforme FR** : **FEC export + import** (art. A47 A-1 LPF), PCG, journaux, balances, formats expert-comptable (Sage/Cegid/Quadratus/EBP/Pennylane) | P0/P1 | À ajouter |
 | Immobilisations, comptabilité analytique | P2 | À ajouter |
 | **Prévisionnel de trésorerie** | P1 | À ajouter |
 

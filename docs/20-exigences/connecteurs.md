@@ -22,10 +22,10 @@ JAMPACK vise, **de manière absolue, le maximum de connecteurs vers tous les out
 | **Messagerie e-mail** | Microsoft 365/Outlook (Graph), Google Workspace/Gmail, SMTP/IMAP générique | P0/P1 |
 | **Messagerie instantanée & conversationnelle** | WhatsApp Business (Cloud API), Slack, Microsoft Teams, Telegram, Signal, Facebook Messenger, SMS/RCS (Twilio, OVHcloud, Brevo…), notifications push | P1/P2 |
 | **Stockage / Drive** | OneDrive/SharePoint, Google Drive, Dropbox, Nextcloud, WebDAV, S3 | P1 |
-| **Banque (agrégation DSP2)** | Powens (ex-Budget Insight), Bridge, GoCardless, relevés OFX/CSV | P1 |
+| **Banque (agrégation DSP2)** | Powens (ex-Budget Insight), Bridge, GoCardless… (quasi **toutes banques FR/UE**) + relevés **CAMT.053/OFX/CFONB/CSV** | P1 |
 | **Paiement en ligne** | Stripe, GoCardless (SEPA), Mollie, PayPal | P1 |
 | **Facturation électronique** | PDP agréées, Chorus Pro (secteur public) | P0 |
-| **Comptabilité / expert-comptable** | Export FEC, Pennylane, Sage, Cegid, QuickBooks | P1 |
+| **Comptabilité / expert-comptable** | **FEC (export + import)**, Pennylane, Sage, Cegid, Quadratus, EBP, QuickBooks | P1 |
 | **Paie / RH** | PayFit, Silae | P2 |
 | **E-commerce** | Shopify, WooCommerce, PrestaShop, Magento | P2 |
 | **CRM / marketing** | Brevo (Sendinblue), Mailchimp, HubSpot | P2 |
@@ -86,6 +86,14 @@ L'échange de données est un **sous-système à part entière**, actionnable pa
 - **Contrôles** : validation par type, **prévisualisation**, **mode simulation (dry-run)**, **rapport d'erreurs ligne à ligne**, **dédoublonnage** (clé), **upsert** (créer/mettre à jour).
 - **Gros volumes** : traitement **asynchrone par lots** (jobs), UTF-8, reprise.
 - **Reprise de données à l'onboarding** via un **assistant guidé**.
+
+### Données comptables (règles françaises)
+
+Import **et** export des écritures et pièces conformes aux **règles comptables françaises** : **FEC** (Fichier des Écritures Comptables, art. A47 A-1 du LPF) **en export et en import**, **plan comptable (PCG)**, **journaux**, **balances**. Échange avec l'**expert-comptable** dans les **formats courants** : FEC, CSV d'écritures, et formats des logiciels du marché (**Sage, Cegid, Quadratus, EBP, Pennylane…**). La facturation électronique (Factur-X / PDP) est traitée à part (§ e-invoicing).
+
+### Connexion bancaire (rapprochement)
+
+Connexion à **n'importe quelle banque** pour récupérer les opérations et alimenter le **rapprochement bancaire** : **agrégation DSP2** (Powens, Bridge, GoCardless…) couvrant la quasi-totalité des banques **FR/UE**, complétée par l'**import de relevés** aux **formats standards** — **CAMT.053/052 (ISO 20022)**, **OFX**, **CFONB**, CSV — pour les comptes non agrégés. Les opérations importées alimentent le **lettrage** et le rapprochement, **sous droits**, **cloisonnées par société** et **tracées**.
 
 ### Gouvernance
 

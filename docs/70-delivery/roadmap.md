@@ -55,8 +55,8 @@ Compléter le cycle marchandises.
 ## Jalon F — Comptabilité & trésorerie (P0 réglementaire)
 
 - **Écritures automatiques** depuis ventes/achats, plan comptable (PCG), journaux.
-- **TVA (CA3)**, lettrage, **rapprochement bancaire** + **import relevés** (OFX/CSV).
-- **Export expert-comptable**, immobilisations, analytique.
+- **TVA (CA3)**, lettrage, **rapprochement bancaire** + **connexion multi-banque** (agrégation DSP2 + relevés CAMT.053/OFX/CFONB/CSV).
+- **Import/export comptable conforme FR** : **FEC export + import**, formats expert-comptable (Sage/Cegid/Quadratus/EBP/Pennylane) ; immobilisations, analytique.
 - **Prévisionnel de trésorerie**.
 
 ## Jalon G — IA générative & extensions
