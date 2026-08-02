@@ -80,7 +80,7 @@ Le différenciateur transverse : adapter l'ERP au métier **sans développement*
 Ouvre le segment des sociétés de services (aujourd'hui non adressé).
 
 - **Projets / affaires**, **feuilles de temps**, **facturation au temps passé / forfait / avancement**, **rentabilité par affaire**.
-- **Module Gestion des frais / notes de frais** (par utilisateur) : saisie + **justificatifs/OCR**, **indemnités kilométriques**, approbation, remboursement, comptabilisation, plafonds/politique.
+- **Module Gestion des frais / notes de frais** (par utilisateur) : saisie + **justificatifs/OCR**, **indemnités kilométriques**, **validation hiérarchique** (N+1/N+2, seuils, escalade), remboursement, **import comptable** (écritures) + export paie/EC, plafonds/politique.
 - **Contrats & renouvellements** (complète les factures récurrentes).
 - **SAV / tickets / interventions** (field service, planning).
 
