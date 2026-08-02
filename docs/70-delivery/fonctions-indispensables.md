@@ -141,7 +141,7 @@ Couvre les TPE/PME de services (agences, conseil, IT, BE, artisans), aujourd'hui
 | **MFA / 2FA**, politique de mot de passe | P1 | À ajouter (via Keycloak) |
 | **Chiffrement au repos**, **archivage à valeur probante (NF203)** | P1 | À ajouter |
 | **Assistant de configuration** (wizard) + **données de démo** | P1 | À ajouter |
-| **Aide contextuelle & « how-to » intégrés** : à tout moment, explication de **chaque action possible** (adaptée aux droits) | P1 | À ajouter |
+| **Aide contextuelle & « how-to » intégrés** : à tout moment, explication de **chaque action possible** (adaptée aux droits). Base **IA incluse** ; **assistant « comment faire… »** en langage naturel + **parcours d'utilisation guidés** (visite pas-à-pas) = couche **IA générative** (crédits, opt-in) | P1 | À ajouter |
 | **Accessibilité RGAA / WCAG** (secteur public, inclusivité) | P2 | À ajouter |
 
 ## Finance complémentaire

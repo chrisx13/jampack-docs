@@ -68,7 +68,9 @@ Règle transverse : l'IA **propose**, l'utilisateur **valide**. Les résultats g
 | Usage | Niveau | Valeur |
 |---|---|---|
 | Recherche sémantique globale (embeddings locaux) | Incluse | Retrouver l'information |
-| Aide / onboarding contextuel (FAQ produit) | Incluse | Adoption |
+| Aide contextuelle & **how-to** de base (guides pas-à-pas, FAQ produit) | Incluse | Adoption, simplicité |
+| Assistant **« comment faire… »** en langage naturel (how-to guidé, contextualisé à l'écran/action) | Générative | Autonomie, prise en main |
+| **Parcours d'utilisation guidés** (visite interactive pas-à-pas dans l'écran) | Incluse / Générative | Prise en main, autonomie |
 | Assistant contextuel en langage naturel (chat sur les données) | Générative | Puissance, exploration |
 | Narration de tableaux de bord / synthèses | Générative | Restitution dirigeant |
 | Génération de documents (courriers, comptes-rendus) | Générative | Productivité |
