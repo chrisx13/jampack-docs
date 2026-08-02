@@ -4,7 +4,7 @@ Séquencement des jalons, intégrant les **fonctions indispensables** (voir *Fon
 
 ## Fait
 
-Socle multi-société (Compte ▸ Société ▸ données) · authentification OIDC + **RBAC par société** (modèle de droits Rôle▸Module▸Domaine▸Action, testé) · **CRM** (clients, contacts, établissements, pipeline) · **référentiels** (articles, TVA, numérotation) · **modèle de données Facturation** · thème Jampack · Docker · specifications (SRS, habilitation, module IA, cartographie IA).
+Socle multi-société (Compte ▸ Société ▸ données) · authentification OIDC + **RBAC par société** (modèle de droits Rôle▸Module▸Domaine▸Action, testé) · **isolation renforcée par société (RLS `societeId`, vérifiée)** · **CRM** (clients, contacts, établissements, pipeline) · **référentiels** (articles, **catégories d'articles**, TVA, numérotation) · **IHM type VS Code** (barre d'activité + sous-domaines + onglets + dashboard épinglé + menu d'onglets) · **module Look & feel** (couleurs de marque par compte, import/export) · **Facturation — cœur** (factures : lignes, totaux HT/TVA/TTC, brouillon→validée avec **numéro auto**) · thème Jampack · Docker · specifications (SRS, habilitation, module IA, cartographie IA, connecteurs, personnalisation).
 
 ## Jalon A — Facturation vendable (P0)
 
