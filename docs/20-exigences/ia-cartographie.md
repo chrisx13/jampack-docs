@@ -58,7 +58,8 @@ Règle transverse : l'IA **propose**, l'utilisateur **valide**. Les résultats g
 |---|---|---|
 | Catégorisation d'écritures (modèle local) | Incluse | Productivité compta |
 | Détection d'anomalies / doublons / écarts TVA | Incluse | Fiabilité, contrôle |
-| Rapprochement bancaire assisté (règles) | Incluse | Gain de temps |
+| Rapprochement bancaire & lettrage — **propositions automatiques à valider** (relevé ↔ écriture/facture) sur les vues concernées | Incluse | Gain de temps, contrôle |
+| Rapprochement des cas complexes (libellés ambigus, multi-échéances) | Générative | Couverture accrue |
 | Prévisionnel de trésorerie & alertes | Incluse | Pilotage |
 | Aide à la clôture (checklist intelligente) | Incluse | Sérénité |
 | Synthèse/explication d'un compte, note d'analyse | Générative | Restitution |

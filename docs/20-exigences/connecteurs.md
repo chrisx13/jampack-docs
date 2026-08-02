@@ -93,7 +93,7 @@ Import **et** export des écritures et pièces conformes aux **règles comptable
 
 ### Connexion bancaire (rapprochement)
 
-Connexion à **n'importe quelle banque** pour récupérer les opérations et alimenter le **rapprochement bancaire** : **agrégation DSP2** (Powens, Bridge, GoCardless…) couvrant la quasi-totalité des banques **FR/UE**, complétée par l'**import de relevés** aux **formats standards** — **CAMT.053/052 (ISO 20022)**, **OFX**, **CFONB**, CSV — pour les comptes non agrégés. Les opérations importées alimentent le **lettrage** et le rapprochement, **sous droits**, **cloisonnées par société** et **tracées**.
+Connexion à **n'importe quelle banque** pour récupérer les opérations et alimenter le **rapprochement bancaire** : **agrégation DSP2** (Powens, Bridge, GoCardless…) couvrant la quasi-totalité des banques **FR/UE**, complétée par l'**import de relevés** aux **formats standards** — **CAMT.053/052 (ISO 20022)**, **OFX**, **CFONB**, CSV — pour les comptes non agrégés. Les opérations importées alimentent le **lettrage** et le rapprochement, **sous droits**, **cloisonnées par société** et **tracées**. L'**IA incluse** présente sur les vues des **rapprochements/lettrages proposés automatiquement** (relevé ↔ écriture/facture), **toujours validés manuellement** par l'utilisateur (l'IA propose, ne valide jamais seule).
 
 ### Gouvernance
 
