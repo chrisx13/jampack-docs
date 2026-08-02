@@ -46,4 +46,6 @@ nav:
       - Cartographie des usages IA: 20-exigences/ia-cartographie.md
   - Sécurité & conformité:
       - Sécurité & gouvernance: 40-securite-conformite/securite.md
+  - Delivery:
+      - Fonctions indispensables: 70-delivery/fonctions-indispensables.md
   - Glossaire: glossaire.md
