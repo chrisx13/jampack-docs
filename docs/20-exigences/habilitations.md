@@ -78,8 +78,8 @@ JAMPACK est livré avec des **rôles prédéfinis** prêts à l'emploi. Ils sont
 | **Commercial** | CRM (tous domaines : voir/créer/modifier), Catalogue (voir), Ventes/Devis (voir/créer/modifier), Ventes/Factures (voir). |
 | **Lecture seule** | Action *voir* sur les modules autorisés, aucune écriture. |
 
-!!! warning "Invariant : toujours un administrateur"
-    **Au moins un utilisateur actif doit toujours détenir le rôle Administrateur.** Le système **refuse** toute opération qui retirerait le rôle Administrateur au dernier administrateur, le désactiverait, ou le rétrograderait — avec un message explicite (`SRS-F-ADM-9`, `RG-17`).
+!!! warning "Invariant : toujours un administrateur actif"
+    **Au moins un utilisateur _actif_ doit toujours détenir le rôle Administrateur _actif_.** La vérification porte sur le **dernier administrateur actif**. Le système **refuse** (message explicite) : lui retirer le rôle Administrateur, **mettre cet utilisateur inactif**, ou désactiver le rôle Administrateur (`SRS-F-ADM-9`, `RG-17`).
 
 ## 5. Éditeur de rôle : l'arbre des droits
 
