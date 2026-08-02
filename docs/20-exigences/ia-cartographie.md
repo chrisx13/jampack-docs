@@ -64,6 +64,17 @@ Règle transverse : l'IA **propose**, l'utilisateur **valide**. Les résultats g
 | Aide à la clôture (checklist intelligente) | Incluse | Sérénité |
 | Synthèse/explication d'un compte, note d'analyse | Générative | Restitution |
 
+## Frais / notes de frais
+
+| Usage | Niveau | Valeur |
+|---|---|---|
+| Extraction du justificatif (OCR local) : montant, TVA, date, marchand | Incluse* | Saisie automatique |
+| Extraction avancée (OCR/LLM externe, tickets complexes) | Générative | Cas difficiles |
+| Catégorisation automatique de la dépense | Incluse | Productivité |
+| Contrôle de la politique de frais & détection doublons/anomalies | Incluse | Conformité, fraude |
+
+\* *Incluse si l'OCR tourne en local (coût nul) ; sinon Générative.*
+
 ## Transverse
 
 | Usage | Niveau | Valeur |

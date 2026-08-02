@@ -112,7 +112,7 @@ Couvre les TPE/PME de services (agences, conseil, IT, BE, artisans), aujourd'hui
 | **Facturation au temps passé / au forfait / à l'avancement** | P1 | À ajouter |
 | **Suivi de rentabilité** par affaire | P2 | À ajouter |
 | **SAV / tickets / interventions** (field service, planning) | P2 | À ajouter |
-| **Notes de frais** | P1 | À ajouter |
+| **Module Gestion des frais / notes de frais** (par utilisateur) : saisie, **justificatifs + OCR**, **indemnités kilométriques**, circuit d'approbation, remboursement, comptabilisation, plafonds/politique | P1 | À ajouter |
 | **Contrats & renouvellements** (complète les factures récurrentes) | P2 | À ajouter |
 
 ## Self-service externe (portails)

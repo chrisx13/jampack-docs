@@ -80,7 +80,8 @@ Le différenciateur transverse : adapter l'ERP au métier **sans développement*
 Ouvre le segment des sociétés de services (aujourd'hui non adressé).
 
 - **Projets / affaires**, **feuilles de temps**, **facturation au temps passé / forfait / avancement**, **rentabilité par affaire**.
-- **Notes de frais** ; **contrats & renouvellements** (complète les factures récurrentes).
+- **Module Gestion des frais / notes de frais** (par utilisateur) : saisie + **justificatifs/OCR**, **indemnités kilométriques**, approbation, remboursement, comptabilisation, plafonds/politique.
+- **Contrats & renouvellements** (complète les factures récurrentes).
 - **SAV / tickets / interventions** (field service, planning).
 
 ## Jalon J — Portails self-service
