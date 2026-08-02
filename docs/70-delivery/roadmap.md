@@ -22,7 +22,7 @@ Le cœur commercial. **Objectif : émettre une vraie facture conforme et suivre 
 
 Ce qui rend le produit adoptable et fiable.
 
-- **Import / export** CSV-Excel (clients, articles, contacts…) — reprise de données.
+- **Import / export multi-canal** (fichiers CSV/Excel/ODS/JSON, **API/webhooks**, connecteurs, e-mail, iPaaS) : mapping réutilisable, prévisualisation, dry-run, dédoublonnage/upsert — reprise de données (voir *Connecteurs & intégrations* §6).
 - **Sauvegarde / restauration** automatisées et chiffrées.
 - **Pièces jointes / GED légère** sur les fiches.
 - **Tableaux de bord / KPI par rôle**.

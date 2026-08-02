@@ -65,10 +65,36 @@ Un **moteur de modèles unique** alimente les **documents** (bureautique) **et**
 - **Gouvernance** : création/modification des modèles **soumise à un droit** de paramétrage ; chaque génération/envoi est **tracé** (modèle, canal, destinataire) au journal d'audit.
 - **IA incluse** (coût nul) suggère des formulations ; **IA générative** (crédits) peut rédiger un modèle — jamais imposé.
 
-## 6. Gouvernance
+## 6. Import / export de données (multi-canal)
+
+L'échange de données est un **sous-système à part entière**, actionnable par **plusieurs canaux** — pas seulement le fichier.
+
+### Canaux
+
+- **Fichiers** : CSV, **Excel (.xlsx)**, **ODS**, JSON, XML (upload manuel ou dépôt).
+- **API REST + webhooks** : import/export programmatique, temps réel.
+- **Connecteurs** : drives (OneDrive/Google Drive/Nextcloud…), e-commerce, compta, banque — import/export directement depuis/vers l'outil tiers.
+- **E-mail** : import par pièce jointe / adresse de dépôt ; export envoyé par mail.
+- **iPaaS** : Zapier / Make / n8n pour la longue traîne.
+- **Tableur** : copier-coller et **édition en masse**.
+
+### Fonctions
+
+- **Périmètre complet** : tous les objets (tiers, contacts, établissements, articles, tarifs, opportunités, factures, écritures…), **champs natifs ET champs personnalisés** (voir *Personnalisation & champs personnalisés*).
+- **Mapping des champs** : correspondance colonnes ↔ champs, **modèles de mapping réutilisables**, détection automatique, transformations simples (formats, unités).
+- **Modèles d'import/export** réutilisables + **planification** (exports récurrents, imports programmés).
+- **Contrôles** : validation par type, **prévisualisation**, **mode simulation (dry-run)**, **rapport d'erreurs ligne à ligne**, **dédoublonnage** (clé), **upsert** (créer/mettre à jour).
+- **Gros volumes** : traitement **asynchrone par lots** (jobs), UTF-8, reprise.
+- **Reprise de données à l'onboarding** via un **assistant guidé**.
+
+### Gouvernance
+
+Chaque import/export est **soumis aux droits** (par objet et action), respecte l'**isolation compte/société** (un import ne peut écrire que dans la société active), et est **tracé** au journal d'audit (qui, quoi, quand, volumétrie). Côté **RGPD**, l'export des données personnelles sert aussi le **droit d'accès/portabilité**.
+
+## 7. Gouvernance
 
 Connexions **OAuth/OIDC**, secrets chiffrés ; chaque opération de connecteur respecte les **droits** du module concerné et est **tracée** au journal d'audit ; **résidence UE privilégiée** ; le client garde ses données chez ses fournisseurs. Les envois de **communication** respectent en outre le **consentement/opt-in** des destinataires (RGPD, règles propres à WhatsApp / e-mail / SMS).
 
-## 7. Positionnement roadmap
+## 8. Positionnement roadmap
 
 Socle **API + webhooks + import/export + moteur de modèles/champs de fusion** dès que possible (débloque tout le reste), puis connecteurs **P0/P1** (bureautique, messagerie e-mail, e-invoicing/PDP, banque, paiement, signature, administrations FR), puis **messagerie conversationnelle** (WhatsApp/Slack/Teams/SMS) et élargissement continu (e-commerce, RH, BI, transporteurs…) et **iPaaS** pour la longue traîne.

@@ -14,7 +14,7 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | **Modèles de documents PDF personnalisables** (devis, factures) | P0 | **À ajouter** |
 | **Numérotation des pièces** par société | P0 | Prévu |
 | **Notifications** in-app + e-mail (relances, échéances, validations) | P0 | **À ajouter** |
-| **Import / export** CSV-Excel (clients, articles, écritures…) — reprise de données | P0 | **À ajouter** |
+| **Import / export multi-canal** (fichiers CSV/Excel/ODS/JSON, **API**, connecteurs, e-mail, iPaaS) : mapping réutilisable, prévisualisation, dry-run, dédoublonnage/upsert, reprise de données | P0 | **À ajouter** |
 | **Pièces jointes / GED légère** (documents rattachés aux fiches) | P1 | **À ajouter** |
 | Recherche globale | P1 | Prévu (IA incluse) |
 | **Tableaux de bord / KPI par rôle** | P1 | **À ajouter** |
