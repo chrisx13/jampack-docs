@@ -21,14 +21,16 @@ Pour obtenir **CRM + facturation + compta** chez les concurrents, il faut souven
 
 ## 2. Grille proposée (par utilisateur / mois, facturation annuelle)
 
+> **Découverte = 1 mois gratuit de l'offre Standard**, produit **complet et sans restriction** — pour que le client voie **tout ce que JAMPACK permet**. Sans carte bancaire, sans engagement. À l'issue du mois : passage en **Standard** ou **Business**.
+
 | Offre | Prix | Cible | Périmètre |
 |---|---|---|---|
-| **Découverte** | **0 €** | Indépendant qui démarre | **Tout l'ERP**, 1 utilisateur, 1 société, **IA incluse** — plafonné (ex. 20 factures/mois) |
+| **Découverte** | **0 € pendant 1 mois** | Tout prospect | **L'offre Standard complète**, sans restriction (tout l'ERP + IA incluse), pour l'essayer en conditions réelles |
 | **Standard** | **19 €** | TPE / PME | **Tout l'ERP sans restriction de module** : CRM, facturation + **e-invoicing**, achats, stock, **comptabilité (FEC)**, **IA incluse**, connecteurs standards, 1 société, support inclus |
 | **Business** | **35 €** | PME multi-entités / exigeantes | Tout Standard **+ multi-société illimitée**, **connecteurs premium** (banque, paiement, e-commerce, iPaaS), **API/webhooks étendus**, **SSO**, tableaux de bord avancés, **crédits IA offerts/mois**, support prioritaire (SLA) |
 | **Sur-mesure** | Sur devis | Grands comptes | Volumétrie, on-premise, PDP dédiée, engagements SLA |
 
-**Le point clé :** la **comptabilité et tout le périmètre sont dès 19 €/utilisateur** — là où les concurrents facturent souvent le CRM/facturation et la compta séparément.
+**Le point clé :** la **comptabilité et tout le périmètre sont dès 19 €/utilisateur** — là où les concurrents facturent souvent le CRM/facturation et la compta séparément. Et l'essai fait découvrir **le produit entier**, pas une version bridée.
 
 ## 3. Ce qui distingue les paliers (jamais les modules)
 
@@ -49,7 +51,7 @@ Pour obtenir **CRM + facturation + compta** chez les concurrents, il faut souven
 ## 6. Remises, options & services
 
 - **Sans engagement** (mensuel, +~20 %) ou **annuel −20 %**, **2 ans −25 %**, **3 ans −30 %**.
-- **Essai gratuit 15–30 jours**, toutes fonctionnalités.
+- **Découverte : 1 mois gratuit de l'offre Standard complète**, sans restriction, **sans carte bancaire, sans engagement** — le prospect essaie le produit entier en conditions réelles.
 - **Refacturés à l'usage** (coûts externes only) : crédits IA générative, envoi via **PDP**, **signature électronique**, courrier/SMS.
 - **Services ponctuels** : onboarding & reprise de données, formation.
 - Tarifs préférentiels associations / créateurs (option).
@@ -62,7 +64,7 @@ Pour obtenir **CRM + facturation + compta** chez les concurrents, il faut souven
 
 ## 8. Décisions à valider
 
-- Offre **Découverte gratuite** : oui/non + plafonds.
+- Offre **Découverte** : **1 mois gratuit de l'offre Standard complète** (décidé) — durée exacte (30 j calendaires vs 1 mois glissant) et modalités de sortie (rappel J-3, bascule Standard par défaut) à caler.
 - Prix exacts (19 € / 35 € proposés) et **minimum d'utilisateurs** éventuel.
 - **Dotation** de crédits IA incluse en Business (combien).
 - Modèle **par utilisateur pur** (retenu) vs base + utilisateur.
