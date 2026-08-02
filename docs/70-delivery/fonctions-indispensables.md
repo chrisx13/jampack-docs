@@ -11,7 +11,7 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | Authentification, RBAC par société, multi-société | P0 | Prévu |
 | Audit / historisation, soft-delete généralisé | P0 | Prévu |
 | **Paramétrage société** (logo, coordonnées, RIB/IBAN, mentions légales, CGV) | P0 | **À ajouter** |
-| **Modèles de documents PDF personnalisables** (devis, factures) | P0 | **À ajouter** |
+| **Tous les documents personnalisables** (modèles + champs de fusion, par société) : devis, factures, avoirs, relances, BL, courriers, e-mails, états/exports… | P0 | **À ajouter** |
 | **Numérotation des pièces** par société | P0 | Prévu |
 | **Notifications** in-app + e-mail (relances, échéances, validations) | P0 | **À ajouter** |
 | **Import / export multi-canal** (fichiers CSV/Excel/ODS/JSON, **API**, connecteurs, e-mail, iPaaS) : mapping réutilisable, prévisualisation, dry-run, dédoublonnage/upsert, reprise de données | P0 | **À ajouter** |

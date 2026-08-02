@@ -12,7 +12,7 @@ Le cœur commercial. **Objectif : émettre une vraie facture conforme et suivre 
 
 - Finaliser **factures** : lignes (articles/TVA), totaux HT/TVA/TTC, statut brouillon→validée, **numéro auto**, **PDF**.
 - **Paramétrage société** : logo, coordonnées, RIB/IBAN, mentions légales, CGV.
-- **Modèles de documents PDF** personnalisables (devis, factures, avoirs).
+- **Tous les documents personnalisables** (modèles PDF + champs de fusion, par société) : devis, factures, avoirs — extensible à relances, BL, courriers, e-mails, états.
 - **Conditions & échéances de paiement**, pénalités de retard.
 - **Suivi des règlements / encaissements**.
 - **Notifications** in-app + e-mail (échéances, validations) + **relances** impayés.
@@ -40,7 +40,7 @@ Non négociable, avec l'échéance e-invoicing.
 
 Rendre la gouvernance pilotable par le client.
 
-- Module **Administration** : utilisateurs (actif/inactif), rôles, **éditeur de l'arbre des droits** (tri-état), rôles prédéfinis, garde **dernier admin actif**.
+- Module **Administration** : utilisateurs (actif/inactif), rôles, **éditeur de l'arbre des droits** (tri-état), rôles prédéfinis, garde **dernier admin actif**, **gestion des modèles de documents** (tous personnalisables, par société) et des **vues génériques**, **champs personnalisés**.
 - **Paramètres utilisateur** (avatar, téléphone…).
 - **Crédits IA** : soldes, **plafonds par utilisateur/rôle**, journal de consommation.
 - Premières briques **IA incluse** (coût nul) : dédoublonnage, contrôles TVA, anomalies.

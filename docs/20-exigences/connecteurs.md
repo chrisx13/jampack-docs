@@ -55,7 +55,7 @@ Archivage automatique des pièces et **GED** (rattachement de fichiers) sur OneD
 
 ## 5. Modèles & champs de fusion
 
-Un **moteur de modèles unique** alimente les **documents** (bureautique) **et** les **messages** (e-mail, WhatsApp, Slack, Teams, SMS…). Principes :
+**Tous les documents produits par JAMPACK sont personnalisables** (mise en page, contenu, logo/branding, mentions, champs de fusion, sections conditionnelles), **par société** — via un **moteur de modèles unique** qui alimente les **documents** (bureautique) **et** les **messages** (e-mail, WhatsApp, Slack, Teams, SMS…). La gestion des modèles se fait **au niveau administration** (paramètres globaux, sous droit de paramétrage) ; des modèles par défaut prêts à l'emploi sont fournis. Principes :
 
 - **Bibliothèque de modèles** par société et par type (devis, facture, avoir, relance, accusé de réception, message de bienvenue…), **versionnés** et jamais supprimés (actif/inactif).
 - **Champs de fusion** insérables (ex. `{{tiers.raison_sociale}}`, `{{facture.numero}}`, `{{facture.total_ttc}}`, `{{echeance.date}}`, `{{lien_paiement}}`, `{{utilisateur.nom}}`, `{{societe.iban}}`), **auto-remplis** depuis les données de l'ERP au moment de la génération / l'envoi.
