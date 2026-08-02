@@ -1,0 +1,38 @@
+site_name: JAMPACK — Documentation
+site_description: Documentation produit de JAMPACK, ERP cloud pour TPE/PME françaises
+docs_dir: docs
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search
+  # Le PDF combiné n'est généré qu'en CI (ENABLE_PDF_EXPORT=1) car il est lent en local.
+  - with-pdf:
+      output_path: pdf/jampack-documentation.pdf
+      cover_title: JAMPACK — Documentation
+      cover_subtitle: ERP cloud pour TPE/PME
+      author: JAMPACK
+nav:
+  - Accueil: index.md
+  - Glossaire: glossaire.md
