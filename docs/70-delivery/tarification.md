@@ -1,65 +1,71 @@
 # Proposition de tarification
 
-*Proposition à valider — comparée au marché FR (TPE/PME). Prix en € HT.*
+*Proposition à valider — positionnement **all-in-one** et **très concurrentiel**. Prix en € HT.*
+
+## 0. Préambule : all-in-one assumé
+
+JAMPACK est **tout-en-un**. Le produit est modulaire *techniquement*, mais **jamais vendu à la découpe** : **tous les modules métier** (CRM, ventes & facturation, achats, stock, **comptabilité**) + **IA incluse** + **connecteurs** sont **inclus dès la première offre payante**.
+
+Les paliers ne se distinguent **pas** par le déverrouillage de modules, mais par l'**échelle** (utilisateurs, sociétés, volumétrie) et le **niveau de service** (connecteurs premium, SSO, API étendue, support/SLA, crédits IA). Objectif de prix : **agressivement sous le marché**, pour offrir **plus de périmètre à un prix inférieur**.
 
 ## 1. Repères marché (2026, vérifiés)
 
-| Solution | Modèle | Prix indicatif |
-|---|---|---|
-| **Sellsy** (CRM + facturation) | par utilisateur / mois | **29 / 49 / 99 €** (2 users inclus) |
-| **Axonaut** (tout-en-un) | forfait + par utilisateur | **≈ 97 €/mois** (1 user) **+ 29,99 €**/user, tout inclus |
-| **Pennylane** (facturation/compta) | par mois | **dès 14 €** (facturation), compta au-dessus |
-| **Odoo** | par utilisateur / mois | **≈ 37 €**/user (+ coût d'intégration) |
-| Zoho / Sage / EBP | par utilisateur ou par module | ≈ 15–50 €/mois selon périmètre |
-
-**Lecture du marché** : modèle dominant = **par utilisateur / mois**, avec un entrée ~15–30 €, un milieu ~40–50 €, un premium ~90–100 €. L'e-invoicing est souvent inclus ; l'IA est rarement incluse (souvent en option payante).
-
-## 2. Positionnement de JAMPACK
-
-Valeur **tout-en-un** (comme Axonaut) mais **tarif transparent par paliers** (comme Sellsy), avec deux différenciateurs forts : **IA incluse gratuite** (là où le coût éditeur est nul) et **ouverture maximale** (connecteurs + API). Conformité française incluse (e-invoicing, FEC).
-
-## 3. Grille proposée (par utilisateur / mois, facturation annuelle)
-
-| Offre | Prix | Pour qui | Inclus |
+| Solution | Modèle | Prix indicatif | Périmètre |
 |---|---|---|---|
-| **Découverte** | **0 €** | Indépendant qui démarre | 1 utilisateur, 1 société, devis & factures, CRM light, **IA incluse**, e-invoicing de base *(plafond de factures/mois)* |
-| **Essentiel** | **19 €** | TPE | CRM complet, facturation + **e-invoicing**, catalogue/TVA, 1 société, **IA incluse**, connecteurs bureautique + e-mail, support standard |
-| **Pro** | **39 €** | PME en croissance | Tout Essentiel **+ multi-société**, stock, achats, **rôles & droits avancés**, tableaux de bord, connecteurs drive/paiement/banque, **API & webhooks** |
-| **Entreprise** | **69 €** | PME structurée | Tout Pro **+ comptabilité complète** (écritures auto, TVA/CA3, **FEC**, rapprochement bancaire), connecteurs premium/iPaaS, SSO, support prioritaire (SLA) |
-| **Sur-mesure** | Sur devis | Gros volumes / besoins spécifiques | Négocié (on-premise, PDP dédiée, volumétrie) |
+| Sellsy | par utilisateur/mois | 29 / 49 / 99 € | CRM + facturation (pas la compta) |
+| Axonaut | forfait + user | ≈ 97 €/mois + 29,99 €/user | Tout-en-un |
+| Pennylane | par mois | dès 14 € (facturation) | Facturation + compta |
+| Odoo | par utilisateur/mois | ≈ 37 €/user (+ intégration) | Modulaire (par app) |
 
-Minimum de facturation possible (ex. 2 utilisateurs) sur les offres payantes, à décider.
+Pour obtenir **CRM + facturation + compta** chez les concurrents, il faut souvent **empiler** deux outils (ex. Sellsy ~49 € + Pennylane ~29 € ≈ **78 €/user-équiv./mois**) — ce que JAMPACK fournit dans **une seule offre**.
 
-## 4. IA — modèle de crédits
+## 2. Grille proposée (par utilisateur / mois, facturation annuelle)
 
-- **IA incluse** (coût éditeur nul) : **gratuite et illimitée** dans toutes les offres — différenciateur.
-- **IA générative** (coût réel) : **packs de crédits** à la consommation, ex. **20 € = 200 crédits** (barème à caler), avec plafonds par utilisateur/rôle. Jamais obligatoire, coût affiché avant usage.
+| Offre | Prix | Cible | Périmètre |
+|---|---|---|---|
+| **Découverte** | **0 €** | Indépendant qui démarre | **Tout l'ERP**, 1 utilisateur, 1 société, **IA incluse** — plafonné (ex. 20 factures/mois) |
+| **Standard** | **19 €** | TPE / PME | **Tout l'ERP sans restriction de module** : CRM, facturation + **e-invoicing**, achats, stock, **comptabilité (FEC)**, **IA incluse**, connecteurs standards, 1 société, support inclus |
+| **Business** | **35 €** | PME multi-entités / exigeantes | Tout Standard **+ multi-société illimitée**, **connecteurs premium** (banque, paiement, e-commerce, iPaaS), **API/webhooks étendus**, **SSO**, tableaux de bord avancés, **crédits IA offerts/mois**, support prioritaire (SLA) |
+| **Sur-mesure** | Sur devis | Grands comptes | Volumétrie, on-premise, PDP dédiée, engagements SLA |
 
-## 5. Options & services
+**Le point clé :** la **comptabilité et tout le périmètre sont dès 19 €/utilisateur** — là où les concurrents facturent souvent le CRM/facturation et la compta séparément.
 
-- **Société supplémentaire** : incluse dès **Pro** ; en Essentiel, option ~**+9 €/société/mois**.
-- **Refacturés à l'usage** (services externes) : envoi de **PDP** e-invoicing (si partenaire payant), **signature électronique**, courrier postal, SMS.
-- **Services** : onboarding & reprise de données, formation, paramétrage avancé — **forfaits ponctuels**.
+## 3. Ce qui distingue les paliers (jamais les modules)
 
-## 6. Remises & engagement
+Échelle (nombre de sociétés, volumétrie), **connecteurs premium**, **API/webhooks** étendus, **SSO**, **support/SLA**, **crédits IA** inclus, profondeur analytique. Tous les **modules fonctionnels restent inclus partout**.
 
-- **Sans engagement** (mensuel) possible ; **annuel −20 %**, **2 ans −25 %**, **3 ans −30 %**.
-- **Essai gratuit 15–30 jours** toutes fonctionnalités.
+## 4. IA — le seul « à l'usage »
+
+- **IA incluse** (coût éditeur nul) : **gratuite et illimitée** dans **toutes** les offres — différenciateur majeur (les concurrents facturent souvent l'IA).
+- **IA générative** (coût réel LLM) : **packs de crédits** à la consommation (ex. **20 € = 200 crédits**, barème à caler), plafonds par utilisateur/rôle, coût affiché avant usage, jamais obligatoire. Business inclut une **dotation mensuelle** de crédits.
+
+## 5. Argument concurrentiel
+
+- **Plus de périmètre, moins cher** : ERP complet (compta comprise) dès **19 €/user** vs 29–99 € pour un périmètre partiel ailleurs.
+- **Pas de mauvaise surprise** : modules non facturés séparément ; seuls les **services à coût réel** (IA générative, envoi PDP, signature, courrier/SMS) sont à l'usage.
+- **IA incluse gratuite** + **ouverture maximale** (connecteurs/API) : différenciation produit, pas seulement prix.
+- **Conformité FR incluse** (e-invoicing, FEC) sans surcoût.
+
+## 6. Remises, options & services
+
+- **Sans engagement** (mensuel, +~20 %) ou **annuel −20 %**, **2 ans −25 %**, **3 ans −30 %**.
+- **Essai gratuit 15–30 jours**, toutes fonctionnalités.
+- **Refacturés à l'usage** (coûts externes only) : crédits IA générative, envoi via **PDP**, **signature électronique**, courrier/SMS.
+- **Services ponctuels** : onboarding & reprise de données, formation.
 - Tarifs préférentiels associations / créateurs (option).
 
-## 7. Exemples de facture mensuelle
+## 7. Exemples
 
-- TPE 2 users **Essentiel** annuel : 2 × 19 € = **38 €/mois**.
-- PME 5 users **Pro** annuel : 5 × 39 € = **195 €/mois** (+ crédits IA si usage génératif).
-- PME 8 users **Entreprise** annuel : 8 × 69 € = **552 €/mois**, compta et conformité incluses.
+- TPE 2 users **Standard** annuel : **38 €/mois** — ERP complet + compta + IA incluse.
+- PME 5 users **Business** annuel : **175 €/mois** — multi-société, connecteurs premium, crédits IA inclus.
+- Équivalent concurrent (empilement CRM + compta) : souvent **> 350 €/mois** pour le même périmètre.
 
-## 8. Décisions à valider ensemble
+## 8. Décisions à valider
 
-- Offre **Découverte gratuite** : oui/non et plafonds.
-- **Par utilisateur** vs part fixe + par utilisateur (façon Axonaut).
-- Comptabilité : **incluse en Entreprise** vs **module payant** à part.
-- **Barème et prix du crédit IA**.
-- Minimum d'utilisateurs par offre, et prix exacts définitifs.
+- Offre **Découverte gratuite** : oui/non + plafonds.
+- Prix exacts (19 € / 35 € proposés) et **minimum d'utilisateurs** éventuel.
+- **Dotation** de crédits IA incluse en Business (combien).
+- Modèle **par utilisateur pur** (retenu) vs base + utilisateur.
 
 ---
 
