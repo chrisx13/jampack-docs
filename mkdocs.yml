@@ -47,5 +47,6 @@ nav:
   - Sécurité & conformité:
       - Sécurité & gouvernance: 40-securite-conformite/securite.md
   - Delivery:
+      - Feuille de route: 70-delivery/roadmap.md
       - Fonctions indispensables: 70-delivery/fonctions-indispensables.md
   - Glossaire: glossaire.md
