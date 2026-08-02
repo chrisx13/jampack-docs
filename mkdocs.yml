@@ -42,4 +42,6 @@ nav:
   - Exigences:
       - SRS: 20-exigences/srs.md
       - Modèle d'habilitation: 20-exigences/habilitations.md
+  - Sécurité & conformité:
+      - Sécurité & gouvernance: 40-securite-conformite/securite.md
   - Glossaire: glossaire.md
