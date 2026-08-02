@@ -80,6 +80,15 @@ Le paramétrage se divise en deux espaces distincts.
 - **SRS-F-FAC-3** — Attribuer un **numéro** à la validation de la facture (séquence de la société).
 - **SRS-F-FAC-4** — Éditer la facture en **PDF** et l'émettre en **facture électronique** (Factur-X via PDP).
 
+### 3.8 Assistance IA
+
+- **SRS-F-IA-1** — Une **assistance IA optionnelle** est disponible sur tout le périmètre (toute action/opportunité) ; elle **propose** et n'applique jamais de changement sans validation de l'utilisateur.
+- **SRS-F-IA-2** — Deux niveaux : **IA incluse** (règles/modèles locaux, **sans crédit**, activée **automatiquement par défaut** partout où c'est possible) et **IA générative** (LLM, **facturée aux crédits**).
+- **SRS-F-IA-3** — L'usage IA requiert le droit `ia.assistant.utiliser`. L'IA générative requiert en plus un **solde/plafond** suffisant ; le **coût estimé est affiché avant** exécution.
+- **SRS-F-IA-4** — Les crédits suivent un **pool au niveau du compte + plafonds par utilisateur/rôle** ; un appel refusé (droit/solde/plafond) ne consomme rien ; la gestion des crédits requiert `ia.credits.gerer`.
+- **SRS-F-IA-5** — Chaque appel IA est **journalisé** (utilisateur, société, capacité, contexte, crédits, fournisseur/modèle, horodatage) de façon immuable.
+- **SRS-F-IA-6** — **Fournisseur UE privilégié quand c'est possible** ; architecture **agnostique/configurable** ; aucune donnée envoyée à l'IA sans action de l'utilisateur.
+
 ## 4. Exigences non-fonctionnelles
 
 - **SRS-NF-SEC-1** — Isolation stricte des comptes (RLS) ; l'application s'exécute avec un rôle base non-propriétaire.

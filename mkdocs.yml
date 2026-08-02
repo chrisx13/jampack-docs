@@ -42,6 +42,7 @@ nav:
   - Exigences:
       - SRS: 20-exigences/srs.md
       - Modèle d'habilitation: 20-exigences/habilitations.md
+      - Module IA (assistance & crédits): 20-exigences/module-ia.md
   - Sécurité & conformité:
       - Sécurité & gouvernance: 40-securite-conformite/securite.md
   - Glossaire: glossaire.md

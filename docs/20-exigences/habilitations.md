@@ -41,6 +41,8 @@ Chaque domaine expose au minimum les actions **voir · créer · modifier** (sau
 | **Paramètres** | TVA | `parametres.tva` | voir · créer · modifier |
 | Paramètres | Numérotation | `parametres.numerotation` | voir · modifier |
 | Paramètres | Modèles de documents | `parametres.modeles` | voir · créer · modifier |
+| **IA** | Assistant IA | `ia.assistant` | utiliser *(IA incluse gratuite ; IA générative = crédits)* |
+| IA | Crédits IA | `ia.credits` | voir · gérer *(recharge, plafonds)* |
 | **CRM** | Clients / tiers | `crm.clients` | voir · créer · modifier |
 | CRM | Contacts | `crm.contacts` | voir · créer · modifier |
 | CRM | Établissements | `crm.etablissements` | voir · créer · modifier |
