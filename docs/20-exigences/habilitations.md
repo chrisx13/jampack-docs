@@ -81,6 +81,29 @@ JAMPACK est livré avec des **rôles prédéfinis** prêts à l'emploi. Ils sont
 !!! warning "Invariant : toujours un administrateur"
     **Au moins un utilisateur actif doit toujours détenir le rôle Administrateur.** Le système **refuse** toute opération qui retirerait le rôle Administrateur au dernier administrateur, le désactiverait, ou le rétrograderait — avec un message explicite (`SRS-F-ADM-9`, `RG-17`).
 
-## 5. Traçabilité
+## 5. Éditeur de rôle : l'arbre des droits
 
-Ce modèle réalise les exigences `SRS-F-ADM-5/6/7` et la règle `RG-15`. Sa mise en œuvre technique (structure des rôles/droits, application côté serveur) est décrite dans le *Document d'architecture* et les *ADR* dédiés au contrôle d'accès.
+Les droits d'un rôle se configurent dans un **arbre à cases à cocher tri-état** :
+
+```mermaid
+flowchart TD
+  V["Ventes  ◪ (partiel)"] --> F["Factures  ☑"]
+  V --> D["Devis  ◪ (partiel)"]
+  F --> F1["voir ☑"]
+  F --> F2["créer ☑"]
+  F --> F3["modifier ☑"]
+  D --> D1["voir ☑"]
+  D --> D2["créer ☐"]
+  D --> D3["modifier ☐"]
+```
+
+- **Cascade** : cocher un nœud (module ou domaine) coche **tout son sous-arbre** ; le décocher le décoche entièrement.
+- **État partiel** : un nœud dont seule une partie des descendants est cochée s'affiche **indéterminé** (◪).
+- **Droit générique** : accorder un nœud parent équivaut à un droit couvrant tout le sous-arbre. On le note `module.*` (tout le module) ou `module.domaine.*` (toutes les actions du domaine) ; `*` = tous les droits (rôle Administrateur).
+- **Multi-actions** : un même droit peut porter plusieurs actions (ex. `ventes.factures` → voir + créer + modifier).
+
+À l'évaluation, un droit générique parent **implique** les droits enfants : disposer de `ventes.*` autorise `ventes.factures.creer`. C'est ce que fait le rôle **Administrateur** avec `*`.
+
+## 6. Traçabilité
+
+Ce modèle réalise les exigences `SRS-F-ADM-5/6/7/11/12` et les règles `RG-15`, `RG-21`, `RG-22`. Sa mise en œuvre technique (structure des rôles/droits, application côté serveur) est décrite dans le *Document d'architecture* et les *ADR* dédiés au contrôle d'accès.

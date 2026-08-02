@@ -49,6 +49,8 @@ JAMPACK est une application web (et desktop/mobile) multi-tenant. La hiérarchie
 - **SRS-F-ADM-8** — Le système fournit des **rôles prédéfinis** (Administrateur, Stock, Facturation, Comptable, Commercial, Lecture seule…), utilisables tels quels ou **duplicables** pour créer des rôles personnalisés.
 - **SRS-F-ADM-9** — Le système garantit qu'**au moins un utilisateur actif détient le rôle Administrateur** : toute opération qui retirerait, désactiverait ou rétrograderait le **dernier** administrateur est **refusée** avec un message explicite.
 - **SRS-F-ADM-10** — Un administrateur peut **voir, créer, modifier et activer/désactiver des rôles** (y compris de nouveaux rôles personnalisés). Un rôle **n'est pas supprimé** mais basculé **actif/inactif** ; un rôle **inactif ne peut plus être attribué**. Les rôles prédéfinis ne sont pas supprimables.
+- **SRS-F-ADM-11** — L'éditeur de rôle présente les droits sous forme d'**arbre** (Module ▸ Domaine ▸ Action). **Cocher un nœud sélectionne tout son sous-arbre**, le décocher le désélectionne ; un nœud partiellement couvert s'affiche en **état indéterminé**. Les sélections partielles sont permises.
+- **SRS-F-ADM-12** — Un droit peut être **générique** (accordé à un niveau parent, il couvre le sous-arbre) et **porter plusieurs actions** (voir/créer/modifier + actions spécifiques). Le contrôle d'accès serveur résout ces droits génériques et multi-actions.
 
 ### 3.4 Paramétrage
 
