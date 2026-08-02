@@ -48,6 +48,7 @@ JAMPACK est une application web (et desktop/mobile) multi-tenant. La hiérarchie
 - **SRS-F-ADM-7** — Un rôle est configurable : on lui accorde des droits en cochant, par module puis par domaine, les actions voulues (voir/créer/modifier).
 - **SRS-F-ADM-8** — Le système fournit des **rôles prédéfinis** (Administrateur, Stock, Facturation, Comptable, Commercial, Lecture seule…), utilisables tels quels ou **duplicables** pour créer des rôles personnalisés.
 - **SRS-F-ADM-9** — Le système garantit qu'**au moins un utilisateur actif détient le rôle Administrateur** : toute opération qui retirerait, désactiverait ou rétrograderait le **dernier** administrateur est **refusée** avec un message explicite.
+- **SRS-F-ADM-10** — Un administrateur peut **voir, créer, modifier et activer/désactiver des rôles** (y compris de nouveaux rôles personnalisés). Un rôle **n'est pas supprimé** mais basculé **actif/inactif** ; un rôle **inactif ne peut plus être attribué**. Les rôles prédéfinis ne sont pas supprimables.
 
 ### 3.4 Paramétrage
 

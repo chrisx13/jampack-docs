@@ -69,6 +69,7 @@ flowchart LR
 | RG-15 | **Chaque action est soumise à un droit.** La hiérarchie des droits est **Rôle ▸ Module ▸ Domaine ▸ Action**, le **rôle** en étant le sommet. Les actions standard sont **voir / créer / modifier**. Un droit s'écrit `module.domaine.action` (ex. `ventes.factures.creer`) ; un rôle est l'ensemble des droits qu'il accorde. Les droits effectifs d'un utilisateur dans une société sont l'**union** de ses rôles pour cette société. |
 | RG-16 | JAMPACK fournit des **rôles prédéfinis** prêts à l'emploi (Administrateur, Stock, Facturation, Comptable, Commercial, Lecture seule…). Ils sont utilisables tels quels, ou **duplicables et personnalisables** par compte. |
 | RG-17 | **Au moins un utilisateur actif doit toujours détenir le rôle Administrateur** sur le compte. Le système empêche de retirer, désactiver ou rétrograder le **dernier** administrateur. |
+| RG-18 | Un **administrateur peut voir, créer, modifier et activer/désactiver des rôles** (dont de nouveaux rôles personnalisés). Comme les utilisateurs, un rôle **n'est pas supprimé** mais basculé **actif/inactif** ; un rôle **inactif n'est plus attribuable** (les attributions existantes sont conservées mais gelées). Les **rôles prédéfinis** ne sont pas supprimables (ils peuvent être désactivés ou dupliqués). |
 
 ## 6. Besoins par domaine
 

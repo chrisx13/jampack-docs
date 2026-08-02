@@ -35,7 +35,7 @@ Chaque domaine expose au minimum les actions **voir · créer · modifier** (sau
 | Module | Domaine | Code (préfixe) | Actions |
 |---|---|---|---|
 | **Administration** | Utilisateurs | `admin.utilisateurs` | voir · créer · modifier *(pas de suppression : actif/inactif)* |
-| Administration | Rôles | `admin.roles` | voir · créer · modifier |
+| Administration | Rôles | `admin.roles` | voir · créer · modifier · activer/désactiver *(pas de suppression ; rôle inactif non attribuable)* |
 | Administration | Sociétés | `admin.societes` | voir · créer · modifier |
 | Administration | Compte | `admin.compte` | voir · modifier |
 | **Paramètres** | TVA | `parametres.tva` | voir · créer · modifier |
