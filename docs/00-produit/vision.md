@@ -16,6 +16,8 @@ JAMPACK propose une **chaîne de gestion intégrée de bout en bout** : une oppo
 - **Conformité française de premier plan** : facturation électronique (Factur-X via PDP), FEC, TVA, RGPD.
 - **Multi-société** : un même compte pilote plusieurs entités juridiques, avec données cloisonnées et vue consolidée.
 
+**Principe directeur — la simplicité d'abord.** Toute la richesse fonctionnelle (modules avancés, IA, connecteurs, **champs personnalisés**, automatisations, portails…) est un **plus optionnel**. L'ERP doit rester **simple d'approche** : utilisable immédiatement, avec des **réglages par défaut pertinents**, sans configuration préalable imposée. La puissance se révèle **progressivement** (*progressive disclosure*) — on n'active que ce dont on a besoin, et un utilisateur qui ne personnalise rien conserve une interface claire et prête à l'emploi. Aucune de ces capacités additionnelles ne doit alourdir l'expérience de base.
+
 ## 4. Utilisateurs cibles
 
 - **Dirigeant de TPE/PME** : pilotage global, tableau de bord, trésorerie.

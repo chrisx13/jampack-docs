@@ -10,6 +10,8 @@ JAMPACK doit pouvoir s'**adapter à chaque métier sans développement**. La per
 
 Le premier touche **comment on voit** les données ; le second touche **quelles données existent**.
 
+> **Simplicité d'abord.** Toutes ces possibilités sont **optionnelles** et n'existent que si on les active. Par défaut, JAMPACK reste **simple et prêt à l'emploi** : les écrans standard suffisent, les champs et vues supplémentaires n'apparaissent que lorsqu'on les crée. La personnalisation est un **plus**, jamais un prérequis.
+
 ## 1. Personnalisation de l'affichage (par utilisateur)
 
 Chaque utilisateur peut mettre l'ERP **à son goût**, sans impacter les autres ni les données. Par exemple, régler la liste des tiers du CRM, l'ordre des blocs d'une fiche contact, etc.

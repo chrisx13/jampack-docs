@@ -97,7 +97,7 @@ Ouvre le segment des sociétés de services (aujourd'hui non adressé).
 
 - **Application mobile native** (+ **mode hors-ligne**) — la vision d'origine web/RCP/mobile.
 - **MFA / 2FA**, politique de mot de passe (Keycloak), **chiffrement au repos**, **archivage à valeur probante (NF203)**.
-- **Assistant de configuration** (wizard) + **données de démo** + **aide contextuelle** ; **accessibilité RGAA / WCAG**.
+- **Assistant de configuration** (wizard) + **données de démo** + **aide contextuelle & « how-to »** (explication de chaque action, à tout moment) ; **accessibilité RGAA / WCAG**.
 - **Budgets & suivi budgétaire** ; **recouvrement avancé** (scénarios de relance / escalade).
 
 ## Transverse & continu
