@@ -24,6 +24,7 @@ JAMPACK vise, **de manière absolue, le maximum de connecteurs vers tous les out
 | **Stockage / Drive** | OneDrive/SharePoint, Google Drive, Dropbox, Nextcloud, WebDAV, S3 | P1 |
 | **Banque (agrégation DSP2)** | Powens (ex-Budget Insight), Bridge, GoCardless… (quasi **toutes banques FR/UE**) + relevés **CAMT.053/OFX/CFONB/CSV** | P1 |
 | **Paiement en ligne** | Stripe, GoCardless (SEPA), Mollie, PayPal | P1 |
+| **Affacturage / financement** | Factors (mention de **subrogation**), plateformes d'affacturage | P2 |
 | **Facturation électronique** | PDP agréées, Chorus Pro (secteur public) | P0 |
 | **Comptabilité / expert-comptable** | **FEC (export + import)**, Pennylane, Sage, Cegid, Quadratus, EBP, QuickBooks | P1 |
 | **Paie / RH** | PayFit, Silae | P2 |

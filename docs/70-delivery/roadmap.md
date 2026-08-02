@@ -11,7 +11,7 @@ Socle multi-société (Compte ▸ Société ▸ données) · authentification OI
 Le cœur commercial. **Objectif : émettre une vraie facture conforme et suivre son paiement.**
 
 - Finaliser **factures** : lignes (articles/TVA), totaux HT/TVA/TTC, statut brouillon→validée, **numéro auto**, **PDF**.
-- **Paramétrage société** : logo, coordonnées, RIB/IBAN, mentions légales, CGV.
+- **Paramétrage société** : logo, coordonnées, RIB/IBAN, mentions légales, CGV, **coordonnées d'affacturage & clause de subrogation** (zone activable sur les documents).
 - **Tous les documents personnalisables** (modèles PDF + champs de fusion, par société) : devis, factures, avoirs — extensible à relances, BL, courriers, e-mails, états.
 - **Conditions & échéances de paiement**, pénalités de retard.
 - **Suivi des règlements / encaissements**.

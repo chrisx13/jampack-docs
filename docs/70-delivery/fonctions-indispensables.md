@@ -44,6 +44,7 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | **Factures récurrentes / abonnements** | P1 | À ajouter |
 | Remises, **tarifs par client**, catalogue | P1 | Partiel (catalogue ✓) |
 | Bon de commande / bon de livraison | P2 | À ajouter |
+| **Mention de subrogation** (affacturage / factor) : zone activable sur factures | P1 | À ajouter |
 
 ## Achats & stock
 
