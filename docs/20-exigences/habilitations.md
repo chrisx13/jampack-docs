@@ -26,7 +26,7 @@ Un droit est identifié par le code **`module.domaine.action`** (ex. `ventes.fac
 - **Chaque action sensible est soumise à un droit**, vérifié **côté serveur** ; l'interface masque ou désactive en plus les actions non autorisées.
 - Les **droits effectifs** d'un utilisateur dans une société sont l'**union** des droits de ses rôles pour cette société.
 - Au-delà des trois actions standard, certains domaines définissent des **actions spécifiques** (ex. `ventes.factures.valider`, `compta.fec.exporter`) soumises au même mécanisme.
-- Conformément à la gestion des utilisateurs, il n'existe **pas d'action « supprimer »** pour les utilisateurs : l'opération est `admin.utilisateurs.modifier` (bascule actif/inactif).
+- **Aucune action « supprimer » dans l'ERP** (principe général `RG-19` / `SRS-NF-DATA-1`) : partout, on **active/désactive** (archive). La bascule actif/inactif relève de l'action `modifier` du domaine concerné (ex. `admin.utilisateurs.modifier`, `admin.roles.modifier`).
 
 ## 3. Matrice des droits (modules ▸ domaines)
 
