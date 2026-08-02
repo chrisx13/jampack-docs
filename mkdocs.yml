@@ -35,4 +35,10 @@ plugins:
       author: JAMPACK
 nav:
   - Accueil: index.md
+  - Produit:
+      - Vision & périmètre: 00-produit/vision.md
+  - Analyse métier:
+      - BRD / Analyse métier: 10-analyse-metier/brd.md
+  - Exigences:
+      - SRS: 20-exigences/srs.md
   - Glossaire: glossaire.md
