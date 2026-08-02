@@ -27,7 +27,8 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | Fonction | Priorité | Statut |
 |---|---|---|
 | Clients/tiers, contacts, établissements, pipeline | P0 | Prévu ✓ |
-| Activités, tâches, **agenda & rappels** | P1 | Partiel (à étoffer) |
+| Activités, **agenda & rappels** | P1 | Partiel (à étoffer) |
+| **Tâches personnelles & mutualisées** (assignation, échéances, priorités, rappels, liées aux fiches) | P1 | À ajouter |
 | Suivi des e-mails / interactions | P2 | À ajouter |
 
 ## Ventes & facturation
