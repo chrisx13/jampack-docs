@@ -25,9 +25,9 @@ Chaque capacité est rendue dans le **contexte de l'écran** (une opportunité, 
 
 JAMPACK distingue deux niveaux, pour offrir de la valeur IA **sans coût** dès que possible et réserver les crédits au génératif.
 
-### IA incluse — sans crédit
+### IA incluse — coût nul, sans crédit
 
-Fonctions **gratuites pour le client** et **peu coûteuses à opérer pour l'éditeur**, car elles ne dépendent pas d'appels à des LLM externes facturés. Elles reposent sur des **règles métier**, des **calculs statistiques** et des **modèles locaux / open-source** (hébergeables en UE, coût marginal quasi nul). Exemples :
+**Critère de classement :** une fonction est « incluse » **uniquement si son coût marginal pour JAMPACK (l'éditeur) est nul**. Ce sont donc des fonctions **gratuites pour le client** qui ne génèrent **aucun coût par appel** pour l'éditeur : **règles métier**, **calculs statistiques**, **modèles locaux / open-source** tournant sur l'infrastructure **déjà provisionnée** (hébergeables en UE). Dès qu'une fonction engendre un coût réel par appel (API/inférence facturée), elle bascule en IA générative (crédits). Exemples d'IA incluse :
 
 - **Contrôles & anomalies** : doublons clients/factures, écarts TVA, IBAN/SIREN invalides, incohérences de montants.
 - **Scoring & suggestions par calcul** : score d'opportunité, réappro suggéré, relances à prévoir, meilleures ventes.

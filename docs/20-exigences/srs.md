@@ -83,7 +83,7 @@ Le paramétrage se divise en deux espaces distincts.
 ### 3.8 Assistance IA
 
 - **SRS-F-IA-1** — Une **assistance IA optionnelle** est disponible sur tout le périmètre (toute action/opportunité) ; elle **propose** et n'applique jamais de changement sans validation de l'utilisateur.
-- **SRS-F-IA-2** — Deux niveaux : **IA incluse** (règles/modèles locaux, **sans crédit**, activée **automatiquement par défaut** partout où c'est possible) et **IA générative** (LLM, **facturée aux crédits**).
+- **SRS-F-IA-2** — Deux niveaux, classés selon le **coût marginal pour l'éditeur** : **IA incluse** = coût nul (règles/calculs/modèles locaux), **sans crédit**, activée **automatiquement par défaut** partout où c'est possible ; **IA générative** = coût réel par appel (LLM/API), **facturée aux crédits**.
 - **SRS-F-IA-3** — L'usage IA requiert le droit `ia.assistant.utiliser`. L'IA générative requiert en plus un **solde/plafond** suffisant ; le **coût estimé est affiché avant** exécution.
 - **SRS-F-IA-4** — Les crédits suivent un **pool au niveau du compte + plafonds par utilisateur/rôle** ; un appel refusé (droit/solde/plafond) ne consomme rien ; la gestion des crédits requiert `ia.credits.gerer`.
 - **SRS-F-IA-5** — Chaque appel IA est **journalisé** (utilisateur, société, capacité, contexte, crédits, fournisseur/modèle, horodatage) de façon immuable.
