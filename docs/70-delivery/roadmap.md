@@ -68,7 +68,8 @@ Compléter le cycle marchandises.
 
 Le différenciateur transverse : adapter l'ERP au métier **sans développement**.
 
-- **Champs personnalisés** + **vues / statuts configurables** par objet.
+- **Personnalisation de l'affichage** par utilisateur (colonnes, tri, filtres, **vues enregistrées**, mise en page) + **vues génériques** créées par l'administration (partagées/par rôle).
+- **Champs personnalisés** de tout type sur un domaine (ex. Contact) + **statuts configurables** par objet.
 - **Moteur d'automatisations no-code** (déclencheurs → actions), au-dessus des notifications.
 - **Workflows d'approbation** configurables (devis, remises, achats, notes de frais).
 - **Générateur d'états / rapports** self-service ; **multi-langue (i18n)** interface + documents.

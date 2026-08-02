@@ -89,7 +89,9 @@ Permettre au client d'adapter l'ERP à son métier **sans développement** — c
 
 | Fonction | Priorité | Statut |
 |---|---|---|
-| **Champs personnalisés** + **vues / statuts configurables** par objet (tiers, article, pièce…) | P1 | À ajouter |
+| **Personnalisation de l'affichage** par utilisateur (colonnes, tri, filtres, vues enregistrées, mise en page) | P1 | À ajouter |
+| **Vues génériques** créées par l'administration (partagées / par rôle) | P1 | À ajouter |
+| **Champs personnalisés** de tout type sur un domaine (ex. Contact) + **statuts configurables** | P1 | À ajouter |
 | **Moteur d'automatisations no-code** (déclencheurs → actions : « facture échue → relance ») | P1 | À ajouter |
 | **Workflows d'approbation** configurables (devis, remises, achats, notes de frais) | P1 | À ajouter |
 | **Générateur d'états / rapports** self-service (au-delà des tableaux de bord) | P2 | À ajouter |

@@ -45,6 +45,7 @@ nav:
       - Module IA (assistance & crédits): 20-exigences/module-ia.md
       - Cartographie des usages IA: 20-exigences/ia-cartographie.md
       - Connecteurs & intégrations: 20-exigences/connecteurs.md
+      - Personnalisation & champs personnalisés: 20-exigences/personnalisation.md
   - Sécurité & conformité:
       - Sécurité & gouvernance: 40-securite-conformite/securite.md
   - Delivery:
