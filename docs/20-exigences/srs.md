@@ -87,7 +87,7 @@ Le paramétrage se divise en deux espaces distincts.
 - **SRS-NF-PERF-1** — Temps de réponse des écrans de gestion courants < 1 s en usage nominal.
 - **SRS-NF-DISP-1** — Sauvegardes automatisées et chiffrées ; objectif de disponibilité élevé en production.
 - **SRS-NF-UX-1** — Interface **unique** pour tous les clients web, au thème officiel ; modes clair et sombre ; responsive.
-- **SRS-NF-AUD-1** — Journal d'audit des opérations sensibles (traçabilité).
+- **SRS-NF-AUD-1** — **Toute action est tracée et historisée** dans un **journal d'audit inaltérable** : utilisateur, société, horodatage, type d'action, entité concernée et **valeurs avant/après**. Le journal est consultable (selon droit) et ne peut être ni modifié ni supprimé. La traçabilité couvre créations, modifications et changements de statut (activation/désactivation).
 - **SRS-NF-DATA-1** — **Aucune suppression physique de données** : tout enregistrement est **actif/inactif (archivé)**. Le système n'expose pas d'action « supprimer » ; la désactivation masque l'enregistrement des listes/sélections par défaut, en interdit tout nouvel usage, mais préserve l'historique et l'intégrité référentielle. Les listes offrent un filtre pour afficher les éléments inactifs.
 
 ## 5. Exigences de données

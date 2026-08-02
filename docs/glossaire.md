@@ -21,3 +21,4 @@
 | **PDP** | Plateforme de Dématérialisation Partenaire, agréée pour l'échange de factures électroniques. |
 | **FEC** | Fichier des Écritures Comptables, exigé par l'administration fiscale française. |
 | **Actif / Inactif (archivage)** | Statut de tout enregistrement de l'ERP. Rien n'est supprimé physiquement : on **désactive/archive**. Un enregistrement inactif est masqué par défaut et non réutilisable, mais conservé pour l'historique et l'audit. |
+| **Journal d'audit (historisation)** | Enregistrement inaltérable de toute action (qui / quoi / quand / société, valeurs avant-après). Ni modifiable ni effaçable ; base de la traçabilité et des obligations légales. |

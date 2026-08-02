@@ -71,6 +71,7 @@ flowchart LR
 | RG-17 | **Au moins un utilisateur actif doit toujours détenir le rôle Administrateur** sur le compte. Le système empêche de retirer, désactiver ou rétrograder le **dernier** administrateur. |
 | RG-18 | Un **administrateur peut voir, créer, modifier et activer/désactiver des rôles** (dont de nouveaux rôles personnalisés). Comme les utilisateurs, un rôle **n'est pas supprimé** mais basculé **actif/inactif** ; un rôle **inactif n'est plus attribuable** (les attributions existantes sont conservées mais gelées). Les **rôles prédéfinis** ne sont pas supprimables (ils peuvent être désactivés ou dupliqués). |
 | **RG-19** | **Principe général : aucune donnée n'est supprimée physiquement dans l'ERP.** Tout enregistrement est **actif ou inactif** (archivé). L'action « supprimer » n'existe pas ; on **désactive/archive**. Un enregistrement inactif est masqué des listes et des sélections par défaut, ne peut plus être utilisé dans de nouvelles opérations, mais reste consultable et **conserve tout son historique** (traçabilité, audit, obligations comptables/légales). RG-14 (utilisateurs) et RG-18 (rôles) en sont des cas particuliers. |
+| **RG-20** | **Principe général : toute action est tracée et historisée.** Chaque création, modification et changement de statut est enregistré dans un **journal d'audit inaltérable** : **qui** (utilisateur), **quoi** (entité, valeurs avant/après), **quand** (horodatage), dans **quelle société**. L'historique est consultable et ne peut être ni modifié ni effacé. |
 
 ## 6. Besoins par domaine
 
