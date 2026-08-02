@@ -64,6 +64,41 @@ Compléter le cycle marchandises.
 - **IA générative** (assistant contextuel, rédaction, synthèses) + décompte crédits.
 - **API publique + webhooks**, multi-devise, montée en puissance des usages IA (cartographie).
 
+## Jalon H — Plateforme & adaptabilité
+
+Le différenciateur transverse : adapter l'ERP au métier **sans développement**.
+
+- **Champs personnalisés** + **vues / statuts configurables** par objet.
+- **Moteur d'automatisations no-code** (déclencheurs → actions), au-dessus des notifications.
+- **Workflows d'approbation** configurables (devis, remises, achats, notes de frais).
+- **Générateur d'états / rapports** self-service ; **multi-langue (i18n)** interface + documents.
+
+## Jalon I — Projets & services
+
+Ouvre le segment des sociétés de services (aujourd'hui non adressé).
+
+- **Projets / affaires**, **feuilles de temps**, **facturation au temps passé / forfait / avancement**, **rentabilité par affaire**.
+- **Notes de frais** ; **contrats & renouvellements** (complète les factures récurrentes).
+- **SAV / tickets / interventions** (field service, planning).
+
+## Jalon J — Portails self-service
+
+- **Portail client** : consulter et **payer les factures en ligne**, **signer un devis**, suivre ses commandes.
+- **Portail fournisseur** : commandes, factures.
+
+## Jalon K — Logistique avancée *(si cible négoce / distribution)*
+
+- **Bons de livraison**, **picking**/préparation, expéditions, **étiquettes transporteurs**, **transferts inter-entrepôts**.
+- **Codes-barres / QR + scan mobile**, **retours (RMA)**.
+- **Nomenclatures / kits**, **variantes**, **unités & conditionnements**.
+
+## Jalon L — Mobilité, sécurité & adoption
+
+- **Application mobile native** (+ **mode hors-ligne**) — la vision d'origine web/RCP/mobile.
+- **MFA / 2FA**, politique de mot de passe (Keycloak), **chiffrement au repos**, **archivage à valeur probante (NF203)**.
+- **Assistant de configuration** (wizard) + **données de démo** + **aide contextuelle** ; **accessibilité RGAA / WCAG**.
+- **Budgets & suivi budgétaire** ; **recouvrement avancé** (scénarios de relance / escalade).
+
 ## Transverse & continu
 
 Audit/historisation, soft-delete, recherche globale, sécurité, et **IA incluse** ajoutée au fil de l'eau partout où c'est possible et pertinent (voir *Cartographie des usages IA*).

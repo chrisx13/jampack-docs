@@ -83,6 +83,70 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | IA incluse (contrôles, anomalies, scoring, dédoublonnage…) | P1 | Prévu (cartographie IA) |
 | IA générative (rédaction, assistant, synthèses) + crédits | P1 | Prévu |
 
+## Plateforme & adaptabilité (différenciateur transverse)
+
+Permettre au client d'adapter l'ERP à son métier **sans développement** — c'est ce qui fidélise.
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Champs personnalisés** + **vues / statuts configurables** par objet (tiers, article, pièce…) | P1 | À ajouter |
+| **Moteur d'automatisations no-code** (déclencheurs → actions : « facture échue → relance ») | P1 | À ajouter |
+| **Workflows d'approbation** configurables (devis, remises, achats, notes de frais) | P1 | À ajouter |
+| **Générateur d'états / rapports** self-service (au-delà des tableaux de bord) | P2 | À ajouter |
+| **Multi-langue (i18n)** interface + documents | P2 | À ajouter |
+
+## Projets & services (nouveau domaine — élargit fortement le marché)
+
+Couvre les TPE/PME de services (agences, conseil, IT, BE, artisans), aujourd'hui non adressées.
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Projets / affaires** (structure, budget, suivi) | P1 | À ajouter |
+| **Feuilles de temps** | P1 | À ajouter |
+| **Facturation au temps passé / au forfait / à l'avancement** | P1 | À ajouter |
+| **Suivi de rentabilité** par affaire | P2 | À ajouter |
+| **SAV / tickets / interventions** (field service, planning) | P2 | À ajouter |
+| **Notes de frais** | P1 | À ajouter |
+| **Contrats & renouvellements** (complète les factures récurrentes) | P2 | À ajouter |
+
+## Self-service externe (portails)
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Portail client** : consulter et **payer les factures en ligne**, signer un devis, suivre ses commandes | P1 | À ajouter |
+| **Portail fournisseur** : commandes, factures | P2 | À ajouter |
+
+## Logistique avancée (si cible négoce / distribution)
+
+À ne prioriser que si cette cible est visée — sinon poids inutile.
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Bons de livraison**, préparation / **picking**, expéditions | P2 | À ajouter |
+| **Étiquettes transporteurs** + suivi | P2 | À ajouter |
+| **Transferts inter-entrepôts** | P2 | À ajouter |
+| **Codes-barres / QR + scan mobile** | P2 | À ajouter |
+| **Retours (RMA)** | P2 | À ajouter |
+| **Nomenclatures / kits**, **variantes**, **unités & conditionnements** | P2 | À ajouter |
+
+## Mobilité, sécurité & adoption
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Application mobile native** (+ **mode hors-ligne**) | P1 | À ajouter (vision d'origine web/RCP/mobile) |
+| **MFA / 2FA**, politique de mot de passe | P1 | À ajouter (via Keycloak) |
+| **Chiffrement au repos**, **archivage à valeur probante (NF203)** | P1 | À ajouter |
+| **Assistant de configuration** (wizard) + **données de démo** | P1 | À ajouter |
+| **Aide contextuelle** intégrée | P2 | À ajouter |
+| **Accessibilité RGAA / WCAG** (secteur public, inclusivité) | P2 | À ajouter |
+
+## Finance complémentaire
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Budgets & suivi budgétaire** | P2 | À ajouter |
+| **Recouvrement avancé** (scénarios de relance / escalade) | P2 | À ajouter |
+
 ## Mon top des manques à traiter en priorité (P0)
 
 1. **Paramétrage société + modèles de documents PDF** (sans ça, pas de facture présentable).
@@ -91,3 +155,13 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 4. **Import/export de données** (reprise de l'existant à l'onboarding — bloquant commercial).
 5. **Sauvegarde/restauration** (confiance & sécurité des données).
 6. **Comptabilité : écritures auto + TVA + FEC** et **RGPD (effacement/export)** — obligations légales.
+
+## Mes paris stratégiques (après le socle vendable & la conformité)
+
+Ce qui élargit le marché et différencie JAMPACK de Sellsy / Axonaut / Pennylane, dans l'ordre :
+
+1. **Plateforme adaptable** : champs personnalisés + moteur d'automatisations no-code. Fidélise, car chaque client « tord » l'outil à son métier sans dev.
+2. **Projets & services + feuilles de temps + notes de frais**. Ouvre tout le segment des sociétés de services, aujourd'hui non couvert.
+3. **Portail client avec paiement en ligne** (et signature de devis). Fort effet commercial et gros gain de temps ADV.
+
+La **profondeur logistique** (picking, transporteurs, RMA…) et l'**app mobile native** viennent ensuite, selon la cible. Ces paris pèsent plus, pour un dev solo, que d'approfondir un domaine déjà couvert.

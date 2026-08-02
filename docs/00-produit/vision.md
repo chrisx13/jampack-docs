@@ -28,7 +28,7 @@ JAMPACK propose une **chaîne de gestion intégrée de bout en bout** : une oppo
 
 ### Dans le périmètre
 
-Relation client (sociétés, contacts, établissements, opportunités, activités) ; ventes (devis, commandes, factures, avoirs, e-invoicing) ; achats (fournisseurs, commandes, réceptions) ; stock (articles, entrepôts, mouvements, valorisation) ; comptabilité (plan comptable, écritures, TVA, FEC) ; référentiels (articles, TVA, numérotation) ; administration (comptes, sociétés, utilisateurs, rôles).
+Relation client (sociétés, contacts, établissements, opportunités, activités) ; ventes (devis, commandes, factures, avoirs, e-invoicing) ; achats (fournisseurs, commandes, réceptions) ; stock (articles, entrepôts, mouvements, valorisation) ; comptabilité (plan comptable, écritures, TVA, FEC) ; référentiels (articles, TVA, numérotation) ; administration (comptes, sociétés, utilisateurs, rôles). S'y ajoutent, par jalons ultérieurs : **projets & services** (affaires, feuilles de temps, notes de frais, facturation au temps/à l'avancement) ; **portails self-service** client et fournisseur ; une **plateforme adaptable** (champs personnalisés, automatisations no-code, workflows d'approbation) ; et une **application mobile native**. Voir la *feuille de route* et les *fonctions indispensables*.
 
 ### Hors périmètre (à ce stade)
 
