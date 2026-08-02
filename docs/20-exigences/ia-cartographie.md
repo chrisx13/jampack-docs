@@ -12,7 +12,7 @@ Règle transverse : l'IA **propose**, l'utilisateur **valide**. Les résultats g
 | Usage | Niveau | Valeur |
 |---|---|---|
 | Dédoublonnage clients/contacts | Incluse | Qualité de la base |
-| Complétion fiche via annuaire SIRENE (API publique gratuite) | Incluse | Saisie accélérée, fiabilité |
+| **Création/complétion de prospect par SIREN/SIRET** (SIRENE, API publique gratuite) + dédoublonnage | Incluse | Saisie accélérée, fiabilité |
 | Scoring & priorisation d'opportunités | Incluse | Focalise l'effort commercial |
 | Prévision de closing (modèle local) | Incluse | Pilotage du pipeline |
 | Prochaine meilleure action | Incluse | Guidage commercial |

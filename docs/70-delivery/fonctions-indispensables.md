@@ -31,6 +31,7 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | Activités, **agenda & rappels** | P1 | Partiel (à étoffer) |
 | **Tâches personnelles & mutualisées** (propriétaire = créateur ; personnelle → mutualisée ; assignation/désassignation par le propriétaire ; échéances, priorités, rappels) — **reliées à n'importe quelle vue** (deep-link : clic → ouvre la vue ; création depuis une vue) | P1 | À ajouter |
 | Suivi des e-mails / interactions | P2 | À ajouter |
+| **Création/complétion auto de prospect par SIREN/SIRET** (SIRENE) + dédoublonnage | P1 | À ajouter |
 
 ## Ventes & facturation
 
