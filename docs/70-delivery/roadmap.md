@@ -102,6 +102,15 @@ Ouvre le segment des sociétés de services (aujourd'hui non adressé).
 - **Assistant de configuration** (wizard) + **données de démo** + **aide contextuelle & « how-to »** (explication de chaque action, à tout moment) + **parcours d'utilisation guidés** (visite pas-à-pas, couche IA) ; **accessibilité RGAA / WCAG**.
 - **Budgets & suivi budgétaire** ; **recouvrement avancé** (scénarios de relance / escalade).
 
+## Jalon M — RH & organisation *(module optionnel)*
+
+Gestion RH complète — **non obligatoire au bon fonctionnement de l'ERP**.
+
+- Fiches **salariés**, contrats, documents RH ; **services / départements**, **organigramme**, **hiérarchie (N+1)**.
+- **Absences / congés** (demande → validation → soldes) ; compétences, entretiens, **on/offboarding**.
+- La **hiérarchie / organigramme** alimente les **circuits de validation** (frais, approbations) — brique potentiellement **avancée plus tôt** car les validations en dépendent (sinon repli sur les rôles/droits).
+- **Paie interfacée** (PayFit, Silae…), non reconstruite.
+
 ## Transverse & continu
 
 Audit/historisation, soft-delete, recherche globale, sécurité, et **IA incluse** ajoutée au fil de l'eau partout où c'est possible et pertinent (voir *Cartographie des usages IA*).

@@ -30,11 +30,11 @@ JAMPACK propose une **chaîne de gestion intégrée de bout en bout** : une oppo
 
 ### Dans le périmètre
 
-Relation client (sociétés, contacts, établissements, opportunités, activités) ; ventes (devis, commandes, factures, avoirs, e-invoicing) ; achats (fournisseurs, commandes, réceptions) ; stock (articles, entrepôts, mouvements, valorisation) ; comptabilité (plan comptable, écritures, TVA, FEC) ; référentiels (articles, TVA, numérotation) ; administration (comptes, sociétés, utilisateurs, rôles). S'y ajoutent, par jalons ultérieurs : **projets & services** (affaires, feuilles de temps, notes de frais, facturation au temps/à l'avancement) ; **portails self-service** client et fournisseur ; une **plateforme adaptable** (champs personnalisés, automatisations no-code, workflows d'approbation) ; et une **application mobile native**. Voir la *feuille de route* et les *fonctions indispensables*.
+Relation client (sociétés, contacts, établissements, opportunités, activités) ; ventes (devis, commandes, factures, avoirs, e-invoicing) ; achats (fournisseurs, commandes, réceptions) ; stock (articles, entrepôts, mouvements, valorisation) ; comptabilité (plan comptable, écritures, TVA, FEC) ; référentiels (articles, TVA, numérotation) ; administration (comptes, sociétés, utilisateurs, rôles). S'y ajoutent, par jalons ultérieurs : **projets & services** (affaires, feuilles de temps, notes de frais, facturation au temps/à l'avancement) ; **gestion RH** (salariés, services/départements, **organigramme**, **hiérarchie**, absences/congés) ; **portails self-service** client et fournisseur ; une **plateforme adaptable** (champs personnalisés, automatisations no-code, workflows d'approbation) ; et une **application mobile native**. Voir la *feuille de route* et les *fonctions indispensables*.
 
 ### Hors périmètre (à ce stade)
 
-Paie complète (envisagée en interface avec un outil dédié), production/MRP industriel (optionnel selon secteur), et gestion de la relation fournisseur avancée (SRM).
+Le **calcul de paie** (interfacé avec un outil dédié — la **gestion RH** hors paie, elle, est dans le périmètre), la production/MRP industriel (optionnel selon secteur), et la gestion de la relation fournisseur avancée (SRM).
 
 ## 6. Objectifs et indicateurs
 

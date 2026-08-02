@@ -115,6 +115,18 @@ Couvre les TPE/PME de services (agences, conseil, IT, BE, artisans), aujourd'hui
 | **Module Gestion des frais / notes de frais** (par utilisateur) : saisie, **justificatifs + OCR**, **indemnités kilométriques**, **validation hiérarchique** (N+1/N+2, seuils, escalade), remboursement, **import comptable** (écritures) + export paie/EC, plafonds/politique | P1 | À ajouter |
 | **Contrats & renouvellements** (complète les factures récurrentes) | P2 | À ajouter |
 
+## RH (ressources humaines) — module optionnel
+
+Gestion RH complète ; **non obligatoire au bon fonctionnement de l'ERP** (activable au besoin).
+
+| Fonction | Priorité | Statut |
+|---|---|---|
+| **Salariés**, contrats, documents RH | P2 | À ajouter |
+| **Services / départements**, **organigramme**, **hiérarchie (N+1)** — alimente les circuits de validation | P2 | À ajouter |
+| **Absences / congés** (demande → validation → soldes) | P2 | À ajouter |
+| Compétences, entretiens, **on/offboarding** | P2 | À ajouter |
+| **Paie** | — | Interfacée (PayFit / Silae) — non reconstruite |
+
 ## Self-service externe (portails)
 
 | Fonction | Priorité | Statut |
