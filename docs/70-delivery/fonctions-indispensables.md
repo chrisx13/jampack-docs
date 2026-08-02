@@ -17,6 +17,7 @@ Avis d'architecte sur les fonctions **indispensables** d'un ERP pour TPE/PME fra
 | **Import / export multi-canal** (fichiers CSV/Excel/ODS/JSON, **API**, connecteurs, e-mail, iPaaS) : mapping réutilisable, prévisualisation, dry-run, dédoublonnage/upsert, reprise de données | P0 | **À ajouter** |
 | **Pièces jointes / GED légère** (documents rattachés aux fiches) | P1 | **À ajouter** |
 | Recherche globale | P1 | Prévu (IA incluse) |
+| **IHM type VS Code** : barre d'activité (grands domaines) + panneau sous-domaines + **espace à onglets** + **onglet Tableau de bord épinglé** (marqueurs paramétrables) | P1 | **À ajouter** |
 | **Tableaux de bord / KPI par rôle** | P1 | **À ajouter** |
 | **API publique + webhooks** (intégrations) | P1 | Prévu (note archi) |
 | **Sauvegarde / restauration** automatisées | P0 | **À ajouter** |

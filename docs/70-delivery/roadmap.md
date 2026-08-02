@@ -27,6 +27,7 @@ Ce qui rend le produit adoptable et fiable.
 - **Pièces jointes / GED légère** sur les fiches.
 - **Tâches personnelles & mutualisées** (assignation, échéances, priorités, rappels/notifications), **reliées à n'importe quelle vue de l'ERP** (deep-link : clic → ouvre la vue adéquate ; création d'une tâche depuis une vue).
 - **Tableaux de bord / KPI par rôle**.
+- **Refonte du shell IHM (type VS Code)** : barre d'activité (grands domaines) + panneau sous-domaines + **espace de travail à onglets** + **onglet Tableau de bord épinglé** à marqueurs paramétrables (voir charte front).
 
 ## Jalon C — Conformité France (P0)
 

@@ -21,7 +21,7 @@ Réglages personnels possibles :
 - **Colonnes des listes** : lesquelles afficher/masquer, leur **ordre** et leur **largeur**.
 - **Tri, regroupement et filtres** par défaut ; **vues enregistrées** (« Mes vues » : ex. « Mes clients actifs », « Prospects à relancer »).
 - **Mise en page des fiches** : ordre et **repli des sections**, densité d'affichage.
-- **Tableau de bord / page d'accueil** : choix et disposition des widgets.
+- **Tableau de bord / page d'accueil** : **onglet épinglé toujours présent** (non fermable), avec des **marqueurs / indicateurs paramétrables** (widgets, KPI, raccourcis, tâches, échéances) — choix et disposition par l'utilisateur. Voir le *modèle de navigation type VS Code* (charte front).
 - **Favoris / épingles** et raccourcis.
 
 Principes :
