@@ -52,4 +52,5 @@ nav:
       - Feuille de route: 70-delivery/roadmap.md
       - Fonctions indispensables: 70-delivery/fonctions-indispensables.md
       - Tarification (proposition): 70-delivery/tarification.md
+      - Développer avec VS Code: 70-delivery/dev-vscode.md
   - Glossaire: glossaire.md
